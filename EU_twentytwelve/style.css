@@ -1,0 +1,269 @@
+﻿/*
+ Theme Name:   Sustainable aging EU - Twenty Twelve Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Twelve Child Theme
+ Author:       Henrik Wilhelmsson
+ Author URI:   http://example.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-twelve-child
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Dölj "Drivs med Wordpress" */
+.site-info a {
+	display: none;
+}
+/* Hantering av h1 */
+.site-title {
+	display:none;
+}
+.site-description {
+	display: none;
+}
+
+/* Modifiering av meny */
+.nav-menu {
+	background-color: #e5f1e5;
+}
+
+/* Flytt av meny */
+.nav-menu {
+	margin-top: -2rem;
+}
+.nav-menu ul{
+	/* padding-left:17.3rem; */
+	padding-left:17%;
+}
+
+/* Flytt av header */
+.header-image {
+	margin-top: -0.1rem;
+	width: 100%;
+	height: 100%
+}
+
+/* Släcka författarnamn */
+.by-author {
+	display: none;
+}
+
+/* Länkfärger */
+.entry-title a{
+	color: #53a853;
+}
+
+/* Fix av max-bredd på webbplats */
+.site {
+	max-width: 1600px;
+}
+body .site {
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Borttagning av skuggor etc på bild */
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+	border-radius: 0;
+	box-shadow: none;
+}
+body {
+	line-height: normal;
+}
+
+/* Header-fix */
+.site-header {
+	padding: 0 0;
+	padding: 0 0;
+}
+
+/* Content-area */
+.site-content {
+	padding-left: 17%;
+	width:50%;
+}
+#content {
+	margin-top: 20px;
+}
+
+/* Typsnitt */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bitter,Georgia,serif;
+    line-height: 1.3;
+}
+
+/* Widgets */
+.widget-area {
+	margin-top: 40px;
+	margin-left: -140px;
+	float: right;
+	width: 30%;
+}
+.widget_text {
+	padding: 20px;
+	width: 60%;
+	margin-top:-20px;
+}
+.widget-title {
+    font: italic 300 20px "Source Sans Pro",Helvetica,sans-serif;
+    margin: 0 0 10px;
+}
+.widget_text {
+}
+
+/* Footer */
+#colophon {
+	background-color: #c3dbe2;
+	max-width: 100%;
+}
+.footertext {
+	padding-left:14%;
+	font-size: 15px;
+	line-height: 1.5rem;
+}
+
+.footertext h2 {
+	font-size: 20px;
+}
+.footer-twitter-timeline {
+	display: none;
+}
+
+/* Ta bort text "Utvalt inlägg" */
+article.sticky .featured-post {
+		display: none;
+	}
+
+
+/* Justeringar för mobilläge. */
+@media screen and (max-width: 600px) {
+
+	/* Fix av konstig högerkant */
+	.site {
+		margin: 0 auto;
+		max-width: 1600px;
+		max-width: 68.571428571rem;
+		overflow: hidden;
+	}
+	.site-content {
+		float: left;
+		width: 65.104166667%;
+	}
+
+	/* */
+	.site-content {
+		padding-left: 5%;
+		width: 80%;
+		margin-top: 3rem;
+	}
+	.site-header h1 {
+		margin-bottom: 0;
+	}
+	.header-image {
+		margin-top: -0.1rem;
+		width:100%;
+	}
+
+	/* Byte av header-bild */
+	/* Fan vet hur - senare fråga */
+
+	/* Hantering av widgets */
+
+	.widget_recent_entries {
+		display: none;
+	}
+	.widget-area .widget_search {
+		margin-left: -217%;
+		margin-top: -20%;
+
+	} /* sök behöver visas och flyttas uppåt */
+
+	.textwidget {
+		display: none;
+
+	}
+
+	/* Mobil-meny */
+	.menu-toggle {
+		margin-top: -4rem;
+		width: 100%;
+		height: 1.4rem;
+		background-color: #4b4b4d;
+		background-image: none;
+		border:0;
+		box-shadow: none;
+		color: #fff;
+		text-align: left;
+		border-radius: 0;
+		font-size: 20px;
+		font-family: "Source Sans Pro",Helvetica,sans-serif;
+		font-weight: bold;
+		padding-left: 5%;
+		padding-top: 0.9rem;
+		padding-bottom: 1.1rem;
+
+	}
+	.menu-toggle:hover {
+		width: 100%;
+		background-color: #4b4b4d;
+		background-image: none;
+		border: 0;
+		box-shadow: none;
+		color: #fff;
+		border-radius: 0;
+	}
+	.menu-toggle:active, .menu-toggle.toggled-on {
+		margin-top: -3rem;
+		background-color: #4b4b4d;
+		background-image: none;
+		border: 0;
+		box-shadow: none;
+		color: #fff;
+		width: 100%;
+		border-radius: 0;
+	}
+	.menu-toggle h3 {
+		padding-top:-1rem;
+	}
+	.nav-menu  ul {
+		padding-left: 6%;
+		text-align: left;
+	}
+	.nav-menu a {
+		font-size: 15px;
+		text-decoration: none;
+	}
+	.nav-menu li a:hover{
+		background-color: #000;
+		width: 100%;
+		color: #fff;
+	}
+	.current-page-item {
+		background-color: #000;
+		width: 100%;
+	}
+	.nav-menu {
+		float: left;
+		padding: 0.428571rem;
+		padding-left: 0;
+		/* width: 93%; */
+		width: 100%;
+		background-color: ##e5f1e5;
+	}
+	.toggled-on {
+		margin-top: -0.2rem;
+		width: 93%;
+	}
+
+	/* Twitter */
+	.dt-twitter {
+		visible=false;
+	}
+
+
+}
