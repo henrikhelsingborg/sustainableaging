@@ -47,8 +47,10 @@
 
 		<h1>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-<img src="/wp-content/themes/EU_twentytwelve/images/header_1600.jpg" class="header-image" alt=""/></a>
+					<img src="/wp-content/themes/EU_twentytwelve/images/header_1600.jpg" class="header-image" alt=""/></a>
+					
 		</h1>
+
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Hoppa till innehåll', 'twentytwelve' ); ?>"><?php _e( 'Hoppa till innehåll', 'twentytwelve' ); ?></a>
