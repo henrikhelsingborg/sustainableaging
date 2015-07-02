@@ -12,6 +12,8 @@
 
 @import url("../twentytwelve/style.css");
 
+/* Latest update 150702 */
+
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
@@ -182,17 +184,12 @@ article.sticky .featured-post {
 
 	/* Hantering av widgets */
 
-	.widget_recent_entries {
+div.widget-area aside.widget.widget_meta, div.widget-area aside.widget.widget_categories, div.widget-area aside.widget.widget_archive,div.widget-area aside.widget.widget_recent_entries, .textwidget, .widget-title, .recentcomments {
 		display: none;
 	}
 	.widget-area .widget_search {
 		margin-left: -217%;
 		margin-top: -20%;
-
-	} /* sök behöver visas och flyttas uppåt */
-
-	.textwidget {
-		display: none;
 
 	}
 
