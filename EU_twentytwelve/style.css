@@ -197,10 +197,14 @@ article.sticky .featured-post {
 	}
 
 	/* Mobil-meny */
+	.main-navigation{
+		margin-top:0.5rem;
+	}
 	.menu-toggle {
 		margin-top: -4rem;
 		width: 100%;
-		height: 1.4rem;
+		/* height: 1.4rem; */
+		height:4rem;
 		background-color: #4b4b4d;
 		background-image: none;
 		border:0;
@@ -264,7 +268,7 @@ article.sticky .featured-post {
 		background-color: ##e5f1e5;
 	}
 	.toggled-on {
-		margin-top: -0.2rem;
+		margin-top: 1rem; /* change */
 		width: 93%;
 	}
 
