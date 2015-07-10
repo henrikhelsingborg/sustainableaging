@@ -23,7 +23,7 @@
 			</div>
 			<div class="leftfooter">
 				<b>Sustainable Ageing in Future Europe</b><br/>
-
+				Helsingborg, Sweden<br/>
 				Tampere, Finland<br/>
 				Foligno, Italy<br/>
 				WVO, Netherlands<br/>
@@ -37,7 +37,7 @@
 
 			</div>
 			<div class="middlefooter">
-				
+
 			</div>
 
 		</div>
