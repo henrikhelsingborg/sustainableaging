@@ -47,7 +47,7 @@
 
 		<h1>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="/wp-content/themes/EU_twentytwelve/images/header_1600.jpg" class="header-image" alt=""/></a>
+					<img src="/wp-content/themes/EU_twentytwelve/images/headerEU.jpg" class="header-image" alt=""/></a>
 
 		</h1>
 
