@@ -47,8 +47,9 @@
 
 		<h1>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="/wp-content/themes/EU_twentytwelve/images/headerEU.jpg" class="header-image" alt=""/></a>
-
+					<img src="/wp-content/themes/EU_twentytwelve/images/header_1600.jpg" class="header-image" alt=""/></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="mobile-home-link">
+					<img src="/wp-content/themes/EU_twentytwelve/images/safe_small.png" class="safelogo-mobile" alt=""/><img src="/wp-content/themes/EU_twentytwelve/images/eu.png" class="eulogo-mobile" alt=""/></a>
 		</h1>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

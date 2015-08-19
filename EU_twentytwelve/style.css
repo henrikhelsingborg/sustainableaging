@@ -52,6 +52,9 @@
 	width: 100%;
 	height: 100%
 }
+.mobile-home-link, .safelogo-mobile, .eulogo-mobile {
+	display:none;
+}
 
 /* Släcka författarnamn */
 .by-author {
@@ -153,6 +156,17 @@ article.sticky .featured-post {
 /* Justeringar för mobilläge. */
 @media screen and (max-width: 600px) {
 
+	/* Change header for mobile view */
+	.header-image {
+			display: none;
+		}
+	.mobile-home-link, .safelogo-mobile, .eulogo-mobile {
+			display:block;
+		}
+	.mobile-home-link {
+			padding-bottom: 10px;
+		}
+
 	/* Fix av konstig högerkant */
 	.site {
 		margin: 0 auto;
@@ -179,8 +193,7 @@ article.sticky .featured-post {
 		width:100%;
 	}
 
-	/* Byte av header-bild */
-	/* Fan vet hur - senare fråga */
+
 
 	/* Hantering av widgets */
 
