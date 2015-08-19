@@ -1,4 +1,4 @@
-﻿/*
+/*
  Theme Name:   Sustainable aging EU - Twenty Twelve Child
  Theme URI:    http://example.com/twenty-fourteen-child/
  Description:  Twenty Twelve Child Theme
@@ -47,14 +47,15 @@
 }
 
 /* Flytt av header */
+.mobile-home-link, .safelogo-mobile, .eulogo-mobile,.mobile-header {
+	display:none;
+}
 .header-image {
 	margin-top: -0.1rem;
 	width: 100%;
-	height: 100%
+	height: 100%;
 }
-.mobile-home-link, .safelogo-mobile, .eulogo-mobile {
-	display:none;
-}
+
 
 /* Släcka författarnamn */
 .by-author {
@@ -157,10 +158,10 @@ article.sticky .featured-post {
 @media screen and (max-width: 600px) {
 
 	/* Change header for mobile view */
-	.header-image {
+	.desktop-header,.header-image {
 			display: none;
 		}
-	.mobile-home-link, .safelogo-mobile, .eulogo-mobile {
+	.mobile-header, .mobile-home-link, .safelogo-mobile, .eulogo-mobile {
 			display:block;
 		}
 	.mobile-home-link {

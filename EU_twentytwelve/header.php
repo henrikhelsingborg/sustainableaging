@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * The Header template for our theme
  *
@@ -45,9 +45,11 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" alt="" /></a>
 		<?php endif; ?> -->
 
-		<h1>
+		<h1 class="desktop-header">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="/wp-content/themes/EU_twentytwelve/images/header_1600.jpg" class="header-image" alt=""/></a>
+		</h1>
+		<h1 class="mobile-header">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="mobile-home-link">
 					<img src="/wp-content/themes/EU_twentytwelve/images/safe_small.png" class="safelogo-mobile" alt=""/><img src="/wp-content/themes/EU_twentytwelve/images/eu.png" class="eulogo-mobile" alt=""/></a>
 		</h1>
